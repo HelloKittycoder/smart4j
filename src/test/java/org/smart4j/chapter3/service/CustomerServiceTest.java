@@ -3,8 +3,8 @@ package org.smart4j.chapter3.service;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.smart4j.chapter3.helper.DatabaseHelper;
 import org.smart4j.chapter3.model.Customer;
+import org.smart4j.framework.helper.DatabaseHelper;
 
 import java.util.HashMap;
 import java.util.List;
