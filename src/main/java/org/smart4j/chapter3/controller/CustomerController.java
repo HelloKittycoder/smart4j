@@ -30,7 +30,7 @@ public class CustomerController {
     @Action("get:/customer")
     public View index(Param param) {
         List<Customer> customerList = customerService.getCustomerList();
-        return new View("customer.jsp").addModel("custmoerList", customerList);
+        return new View("customer.jsp").addModel("customerList", customerList);
     }
 
     /**
